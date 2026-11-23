@@ -549,3 +549,8 @@ body[data-page="home"] #routeNav {
 #cbfmFlipper.is-flipped { transform: rotateY(180deg); }
 #cbfmFlipper .cbfm-face, #cbfmFlipper .cbfm-back { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
 #cbfmFlipper .cbfm-back { transform: rotateY(180deg); }
+
+/* มือถือ: ในพื้นที่ทำงานไม่ต้องแสดงลิงก์ room-work ซ้ำกับแถบเมนูไฟล์ (กันข้อความทับกัน) */
+@media (max-width: 767px) {
+  body[data-page="workspace"] #routeNav { display: none !important; }
+}
