@@ -421,7 +421,8 @@ function setPage(name) {
   viewWorkspace.classList.toggle("hidden", name !== "workspace");
   viewCard.classList.toggle("hidden", name !== "card");
   headerNav.classList.toggle("hidden", name !== "workspace");
-  document.getElementById("headerUpload").style.display = name === "workspace" ? "" : "none";
+  const headerUploadEl = document.getElementById("headerUpload");
+  if (headerUploadEl) headerUploadEl.style.display = name === "workspace" ? "" : "none";
   // เมนูข้างและปุ่มเมนูมือถือแสดงเฉพาะในหน้า room-work
   sidebarEl.classList.toggle("is-hidden", name !== "workspace");
   document.getElementById("menuBtn").classList.toggle("is-hidden", name !== "workspace");
