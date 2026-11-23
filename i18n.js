@@ -170,6 +170,107 @@
   };
   window.getLang = function () { return lang; };
 
+var STATIC_EN = {
+ "+ โน้ตใหม่": "+ New note",
+ "AskFile Workspace v2.5 พร้อมใช้งาน": "AskFile Workspace v2.5 is ready",
+ "กดสองครั้งหรือแตะที่การ์ดเพื่อพลิกกลับด้านหน้า หรือสแกนเพื่อเข้าสู่ลิงก์โปรไฟล์หลัก": "Double-tap the card to flip it, or scan to open the main profile link",
+ "การ์ดของฉัน": "My card",
+ "คลาวด์ไดรฟ์ส่วนตัว": "Personal cloud drive",
+ "คอลัมน์": "Columns",
+ "คัดลอกลิงก์การ์ด": "Copy card link",
+ "คัดลอกเรียบร้อยแล้ว!": "Copied!",
+ "คำอธิบายสั้น": "Short bio",
+ "จัดการและจัดระเบียบไฟล์โปรเจกต์ สื่อ และทรัพยากรที่อัปโหลด": "Manage and organize uploaded project files, media and resources.",
+ "จัดเก็บและแชร์ไฟล์งานของทีมได้อย่างปลอดภัย ไร้รอยต่อ": "Store and share team files securely and seamlessly",
+ "ชมพู": "Pink",
+ "ชื่อที่แสดง": "Display name",
+ "ซิงค์ล่าสุดเมื่อครู่": "Synced just now",
+ "ฐานข้อมูล (Database)": "Database",
+ "ฐานข้อมูล 500 MB, Storage 1 GB (Free Tier)": "Database 500 MB, Storage 1 GB (Free Tier)",
+ "ดาวน์โหลดไฟล์": "Download file",
+ "ถังขยะและกู้คืนไฟล์ได้": "Trash and file recovery",
+ "ทั้งหมด": "All",
+ "บทบาท": "Role",
+ "บันทึก": "Save",
+ "บันทึกข้อมูลเรียบร้อยแล้ว": "Saved successfully",
+ "ปกติ": "Normal",
+ "ผู้ดูแล": "Admin",
+ "พื้นที่จัดเก็บและแชร์ไฟล์งานของทีม เลือก room-work จากเมนูเพื่อเริ่มใช้งาน": "Team file storage and sharing. Choose room-work from the menu to start.",
+ "ฟ้า": "Blue",
+ "ยกเลิก": "Cancel",
+ "ยังไม่มีโน้ต กด + โน้ตใหม่ เพื่อเริ่มเขียน": "No notes yet. Tap + New note to start.",
+ "ยินดีต้อนรับสู่ AskFile": "Welcome to AskFile",
+ "ระบบจัดการไฟล์และพื้นที่ทำงานส่วนบุคคล": "Personal file and workspace management",
+ "ระบบจำกัดการเข้าถึงเฉพาะองค์กร": "Access restricted to the organization",
+ "รีเฟรชขนาด": "Refresh size",
+ "รูปภาพ": "Images",
+ "รูปภาพ (IMAGE)": "Images (IMAGE)",
+ "ลบ": "Delete",
+ "ลากไฟล์มาวางที่นี่ หรือกดเลือกไฟล์": "Drop files here or click to choose",
+ "ลิงก์การ์ด (ตัวอักษรอังกฤษ ตัวเลข และ - เท่านั้น)": "Card link (English letters, digits and - only)",
+ "ล้างถังขยะ": "Empty trash",
+ "ว่างอีก 996.5 MB": "996.5 MB free",
+ "สี": "Color",
+ "หน้าแรก": "Home",
+ "หัวข้อ (Section)": "Section",
+ "ออกจากระบบ": "Sign out",
+ "ออกแบบและพัฒนาเว็บแอปพลิเคชันแบบ Interactive ผสมผสานงานดีไซน์ที่ลื่นไหลเข้ากับโค้ดที่ใช้งานได้จริง": "Designing and building interactive web apps that blend fluid design with working code.",
+ "อัปโหลด": "Upload",
+ "อัปโหลดและจัดระเบียบไฟล์โปรเจกต์": "Upload and organize project files",
+ "อัปโหลดไฟล์": "Upload file",
+ "อีเมลติดต่อ": "Contact email",
+ "เขียนบันทึก จัดกลุ่ม และไฮไลท์": "Write, group and highlight notes",
+ "เขียว": "Green",
+ "เข้าสู่ระบบ": "Sign in",
+ "เข้าสู่ระบบ Google": "Sign in with Google",
+ "เข้าสู่ระบบด้วย Google": "Sign in with Google",
+ "เข้าใช้งานด้วยบัญชี Google ที่ได้รับอนุญาต": "Sign in with an authorized Google account",
+ "เปิดให้ทุกคนดูการ์ดนี้ (ใช้แชร์ลิงก์ได้)": "Make this card public (for link sharing)",
+ "เลือกได้หลายไฟล์พร้อมกัน ไฟล์ที่มีเนื้อหาซ้ำกับที่มีอยู่แล้วจะไม่ถูกอัปโหลด": "Select several files at once. Files with duplicate content will not be uploaded.",
+ "เลือกไฟล์": "Choose files",
+ "เหลือง": "Yellow",
+ "เอกสาร": "Documents",
+ "แก้ไขการ์ด": "Edit card",
+ "แชร์ลิงก์ที่หมดอายุได้ตามเวลา": "Share links that expire on schedule",
+ "แท็ก (คั่นด้วยเครื่องหมายจุลภาค)": "Tags (comma-separated)",
+ "โน้ต": "Notes",
+ "โน้ตใหม่": "New note",
+ "ใช้บัญชี Google ที่ได้รับอนุญาตเท่านั้น": "Only authorized Google accounts can sign in",
+ "ใช้แล้ว 0.35% ของโควต้า": "Used 0.35% of quota",
+ "ใช้แล้ว 2.3% ของโควต้า": "Used 2.3% of quota",
+ "ไฟล์ทั้งหมด": "All files",
+ "ไฟล์ที่อัปโหลด (Storage)": "Uploaded files (Storage)",
+ "ไฟล์บีบอัด": "Archives",
+ "ไฟล์และทรัพยากร": "Files & Resources",
+ "ไม่มีสี": "No color"
+};
+
+  // ข้อความคงที่ในหน้า (ไม่มี data-i18n) สลับเป็นภาษาอังกฤษตามตาราง STATIC_EN
+  function translateStatic() {
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        var p = n.parentNode;
+        if (!p || p.nodeName === "SCRIPT" || p.nodeName === "STYLE") return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      },
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      if (n._thOrig === undefined) {
+        var core0 = n.nodeValue.trim();
+        if (!Object.prototype.hasOwnProperty.call(STATIC_EN, core0)) return;
+        n._thOrig = n.nodeValue;
+      }
+      var core = n._thOrig.trim();
+      if (lang === "en" && Object.prototype.hasOwnProperty.call(STATIC_EN, core)) {
+        n.nodeValue = n._thOrig.replace(core, STATIC_EN[core]);
+      } else {
+        n.nodeValue = n._thOrig;
+      }
+    });
+  }
+
   function applyStatic() {
     document.documentElement.lang = lang;
     document.title = window.t("app_title");
@@ -182,6 +283,7 @@
     document.querySelectorAll("[data-i18n-title]").forEach(function (el) {
       el.title = window.t(el.dataset.i18nTitle);
     });
+    translateStatic();
   }
 
   window.setLang = function (l) {
