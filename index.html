@@ -86,7 +86,6 @@
         AskFile
       </span>
 <nav class="flex items-center gap-4 whitespace-nowrap text-sm" id="routeNav">
-<a class="sidebar-link text-on-surface font-medium border-b-2 border-primary-container pb-1 transition-colors" data-route="home" href="#">หน้าแรก</a>
 <a class="sidebar-link text-on-surface-variant hover:text-on-surface pb-1 transition-colors" data-route="workspace" href="#room-work">room-work</a>
 </nav>
 </div>
@@ -98,7 +97,7 @@
 <a class="text-on-surface-variant hover:text-on-surface transition-colors" data-view="notes" href="#">Note</a>
 </nav>
 <div class="flex flex-1 items-center justify-end gap-2" id="topRight">
-<button id="headerUpload" type="button" data-upload class="glass-btn text-xs px-3 py-1.5 shrink-0">อัปโหลด</button>
+<button id="headerUpload" style="display:none" type="button" data-upload class="glass-btn text-xs px-3 py-1.5 shrink-0">อัปโหลด</button>
 <button id="logoutBtn" type="button" class="glass-btn text-xs px-3 py-1.5 shrink-0" style="display:none">ออกจากระบบ</button>
 <button class="h-8 px-2 rounded-lg border border-outline-variant text-on-surface-variant hover:text-on-surface hover:bg-surface-container text-xs transition-colors" id="langToggleBtn" type="button">
 <span id="langLabel">EN</span>
@@ -147,10 +146,6 @@
             พื้นที่จัดเก็บและแชร์ไฟล์งานของทีม เลือก room-work จากเมนูเพื่อเริ่มใช้งาน
           </p>
 <nav class="mt-8 flex flex-wrap items-center justify-center gap-4">
-<a class="sidebar-link glass-btn" data-route="home" href="#">
-<span class="material-symbols-outlined !text-[18px]">home</span>
-<span>หน้าแรก</span>
-</a>
 <a class="sidebar-link glass-btn is-active" data-route="workspace" href="#room-work">
 <span class="material-symbols-outlined !text-[18px]">folder</span>
 <span>room-work</span>
